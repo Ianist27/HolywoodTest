@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holywood.DAL", "Holywood.DAL\Holywood.DAL.csproj", "{23B3790C-B29A-4864-9452-1C48050A6BB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holywood.API", "Holywood.API\Holywood.API.csproj", "{4CA97539-8B81-4537-A4CA-30F43CD6FD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holywood.Model", "Holywood.Model\Holywood.Model.csproj", "{FBB2E968-CE7B-43EB-9809-2F7943383A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holywood.Resources", "Holywood.Resources\Holywood.Resources.csproj", "{0A374E0A-F064-4ECC-BEC2-4294362C3771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hollywood.Web", "Hollywood.Web\Hollywood.Web.csproj", "{7246DDE9-BEC1-4AA9-8736-84B3541151ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hollywood.Web2", "Hollywood.Web2\Hollywood.Web2.csproj", "{CC43052B-6177-493B-B04B-620ED7240726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B3790C-B29A-4864-9452-1C48050A6BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B3790C-B29A-4864-9452-1C48050A6BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B3790C-B29A-4864-9452-1C48050A6BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B3790C-B29A-4864-9452-1C48050A6BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA97539-8B81-4537-A4CA-30F43CD6FD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA97539-8B81-4537-A4CA-30F43CD6FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA97539-8B81-4537-A4CA-30F43CD6FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA97539-8B81-4537-A4CA-30F43CD6FD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB2E968-CE7B-43EB-9809-2F7943383A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB2E968-CE7B-43EB-9809-2F7943383A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB2E968-CE7B-43EB-9809-2F7943383A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB2E968-CE7B-43EB-9809-2F7943383A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A374E0A-F064-4ECC-BEC2-4294362C3771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A374E0A-F064-4ECC-BEC2-4294362C3771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A374E0A-F064-4ECC-BEC2-4294362C3771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A374E0A-F064-4ECC-BEC2-4294362C3771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7246DDE9-BEC1-4AA9-8736-84B3541151ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7246DDE9-BEC1-4AA9-8736-84B3541151ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7246DDE9-BEC1-4AA9-8736-84B3541151ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7246DDE9-BEC1-4AA9-8736-84B3541151ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC43052B-6177-493B-B04B-620ED7240726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC43052B-6177-493B-B04B-620ED7240726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC43052B-6177-493B-B04B-620ED7240726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC43052B-6177-493B-B04B-620ED7240726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59B6DCD7-5FFA-4640-862A-3FF8956BDCA6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NQSIIModelStoreContainer" CdmEntityContainer="NQSIIEntities">
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="NQSIIModel.Event">
+        <MappingFragment StoreEntitySet="Event">
+          <ScalarProperty Name="EventID" ColumnName="EventID" />
+          <ScalarProperty Name="FK_TournamentID" ColumnName="FK_TournamentID" />
+          <ScalarProperty Name="EventName" ColumnName="EventName" />
+          <ScalarProperty Name="EventNumber" ColumnName="EventNumber" />
+          <ScalarProperty Name="EventDateTime" ColumnName="EventDateTime" />
+          <ScalarProperty Name="EventEndDateTime" ColumnName="EventEndDateTime" />
+          <ScalarProperty Name="AutoClose" ColumnName="AutoClose" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventDetails">
+      <EntityTypeMapping TypeName="NQSIIModel.EventDetail">
+        <MappingFragment StoreEntitySet="EventDetail">
+          <ScalarProperty Name="EventDetailID" ColumnName="EventDetailID" />
+          <ScalarProperty Name="FK_EventID" ColumnName="FK_EventID" />
+          <ScalarProperty Name="FK_EventDetailStatusID" ColumnName="FK_EventDetailStatusID" />
+          <ScalarProperty Name="EventDetailName" ColumnName="EventDetailName" />
+          <ScalarProperty Name="EventDetailNumber" ColumnName="EventDetailNumber" />
+          <ScalarProperty Name="EventDetailOdd" ColumnName="EventDetailOdd" />
+          <ScalarProperty Name="FinishingPosition" ColumnName="FinishingPosition" />
+          <ScalarProperty Name="FirstTimer" ColumnName="FirstTimer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventDetailStatus">
+      <EntityTypeMapping TypeName="NQSIIModel.EventDetailStatu">
+        <MappingFragment StoreEntitySet="EventDetailStatus">
+          <ScalarProperty Name="EventDetailStatusID" ColumnName="EventDetailStatusID" />
+          <ScalarProperty Name="EventDetailStatusName" ColumnName="EventDetailStatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tournaments">
+      <EntityTypeMapping TypeName="NQSIIModel.Tournament">
+        <MappingFragment StoreEntitySet="Tournament">
+          <ScalarProperty Name="TournamentID" ColumnName="TournamentID" />
+          <ScalarProperty Name="TournamentName" ColumnName="TournamentName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

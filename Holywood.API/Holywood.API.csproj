@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Holywood.DAL\Holywood.DAL.csproj" />
+    <ProjectReference Include="..\Holywood.Model\Holywood.Model.csproj" />
+    <ProjectReference Include="..\Holywood.Resources\Holywood.Resources.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.API\\Holywood.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.API\\Holywood.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.API\\Holywood.API.csproj",
+        "projectName": "Holywood.API",
+        "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.API\\Holywood.API.csproj",
+        "packagesPath": "C:\\Users\\nb312962\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nb312962\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.DAL\\Holywood.DAL.csproj": {
+                "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.DAL\\Holywood.DAL.csproj"
+              },
+              "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Model\\Holywood.Model.csproj": {
+                "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Model\\Holywood.Model.csproj"
+              },
+              "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Resources\\Holywood.Resources.csproj": {
+                "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Resources\\Holywood.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.DAL\\Holywood.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.DAL\\Holywood.DAL.csproj",
+        "projectName": "Holywood.DAL",
+        "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.DAL\\Holywood.DAL.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Model\\Holywood.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Model\\Holywood.Model.csproj",
+        "projectName": "Holywood.Model",
+        "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Model\\Holywood.Model.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Resources\\Holywood.Resources.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Resources\\Holywood.Resources.csproj",
+        "projectName": "Holywood.Resources",
+        "projectPath": "C:\\Users\\nb312962\\source\\repos\\Hollywood\\Holywood.Resources\\Holywood.Resources.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

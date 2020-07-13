@@ -1,0 +1,12 @@
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\bin\Debug\Holywood.Model.dll
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\bin\Debug\Holywood.Model.pdb
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\obj\Debug\Holywood.Model.csprojAssemblyReference.cache
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\obj\Debug\Holywood.Model.csproj.CoreCompileInputs.cache
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\obj\Debug\Holywood.Model.dll
+C:\Users\nb312962\source\repos\Tournament\Holywood.Model\obj\Debug\Holywood.Model.pdb
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\bin\Debug\Holywood.Model.dll
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\bin\Debug\Holywood.Model.pdb
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\obj\Debug\Holywood.Model.csprojAssemblyReference.cache
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\obj\Debug\Holywood.Model.csproj.CoreCompileInputs.cache
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\obj\Debug\Holywood.Model.dll
+C:\Users\nb312962\source\repos\Hollywood\Holywood.Model\obj\Debug\Holywood.Model.pdb
